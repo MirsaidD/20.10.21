@@ -1,0 +1,74 @@
+a {
+  color: green;
+}
+a:hover {
+  color: red;
+  background-color: green;
+}
+div:hover {
+  font-size: large;
+  font-weight: bold;
+}
+a:active {
+  font-weight: bold;
+}
+div:active {
+  font-weight: bold;
+}
+li:first-child {
+  background-color: red;
+}
+li:last-child {
+  background-color: green;
+}
+li:nth-child(5) {
+  background-color: green;
+}
+li:nth-child(even) {
+  background-color: blue;
+}
+li:nth-child(odd) {
+  background-color: tomato;
+}
+li:nth-child(3n + 0) {
+  font-weight: bold;
+}
+li:nth-child(3n + 5) {
+  background-color: purple;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
+
+p:first-of-type {
+  background-color: green;
+}
+p:last-of-type {
+  background-color: green;
+}
+p:nth-of-type(even) {
+  background-color: grey;
+  text-decoration: underline;
+}
+p:nth-of-type(odd) {
+  background-color: indigo;
+  font-style: italic;
+}
+img:nth-of-type(even) {
+  float: right;
+  margin-left: 20px;
+}
+img:nth-of-type(odd) {
+  float: left;
+  margin-right: 20px;
+}
+img:hover {
+  border: black dashed 1px;
+}
+img:active {
+  border: solid black 1px;
+}
+img {
+  border: solid white 1px;
+}
